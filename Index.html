@@ -50,9 +50,18 @@
 <body>
     <div>
         <h1>Nome</h1>
-        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Nome" id="nome">
         <br><br>
-        <a href="Quiz.html"><button>Enviar</button></a>
+        <a href="Quiz.html" id="jogar"><button>Enviar</button></a>
     </div>
+    <script>
+        let input = document.getElementById("nome")
+        let btn = document.getElementById("jogar")
+
+        btn.addEventListener('click', () => {
+            sessionStorage.setItem('nome', input.value)
+        })
+    </script>
 </body>
 </html>
+
