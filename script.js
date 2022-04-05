@@ -3,6 +3,7 @@ let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
 let pontos = 0 
 let placar = 0 
+let nome = sessionStorage.getItem('nome')
 
 let numQuestao = document.querySelector('#numQuestao')
 let pergunta   = document.querySelector('#pergunta')
@@ -170,7 +171,7 @@ function verificarSeAcertou(nQuestao, resposta) {
 
     if(respostaEscolhida == certa) {
         pontos += 10 
-    } else 
+    }
     
 
     placar = pontos
@@ -198,9 +199,9 @@ function fimDoJogo() {
     let pont = ''
     pontos == 0 ? pont = 'ponto' : pont = 'pontos'
 
-    pergunta.textContent   = "Você conseguiu " + pontos + " " + pont
+    pergunta.textContent   = nome + " conseguiu " + pontos + " " + pont
 
-    aviso.textContent = "Você conseguiu " + pontos + " " + pont
+    aviso.textContent = nome + " conseguiu " + pontos + " " + pont
 
     a.textContent = ""
     b.textContent = ""
