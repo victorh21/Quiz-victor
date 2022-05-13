@@ -9,7 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(45deg,rgb(98, 102, 96),rgb(2, 10, 7));
+    background-image: linear-gradient(45deg,rgb(0, 0, 0),rgb(29, 28, 28));
     color: #fff;
 }
 
@@ -48,7 +48,7 @@ h1 {
 
 #numQuestao {
     display: block;
-    background: #00ff88;
+    background: #001aff;
     padding: 4px 10px 2px 10px;
     border-radius: 50%;
 }
@@ -72,7 +72,7 @@ h1 {
 }
 
 .questoes ol li:hover {
-    background: #00ff88;
+    background: #001aff;
     cursor: pointer;
 }
 
@@ -103,11 +103,11 @@ h1 {
 
 @keyframes piscar {
     0% {
-        filter: drop-shadow(0 0 15px #00ff88);
-        -webkit-filter: drop-shadow(0 0 15px #00ff88);
-        -moz-filter: drop-shadow(0 0 15px #00ff88);
-        -o-filter: drop-shadow(0 0 15px #00ff88);
-        -ms-filter: drop-shadow(0 0 15px #00ff88);
+        filter: drop-shadow(0 0 15px #001aff);
+        -webkit-filter: drop-shadow(0 0 15px #001aff);
+        -moz-filter: drop-shadow(0 0 15px #001aff);
+        -o-filter: drop-shadow(0 0 15px #001aff);
+        -ms-filter: drop-shadow(0 0 15px #001aff);
     }
     100% {
     }
