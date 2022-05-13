@@ -115,7 +115,96 @@ const q7 = {
 
     }
 
-const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
+    const q11 = {
+        numQuestao   : 11,
+        pergunta     : "Time de futebol?",
+        alternativaA : "Flamengo",
+        alternativaB : "Avaí",
+        alternativaC : "Santos",
+        correta      : "Flamengo",
+    }
+    
+    const q12 = {
+        numQuestao   : 12,
+        pergunta     : "signo?",
+        alternativaA : "Cancêr",
+        alternativaB : "Libra",
+        alternativaC : "Escorpião",
+        correta      : "Escorpião",
+    }
+    
+    const q13 = {
+        numQuestao   : 13,
+        pergunta     : "Quantos irmãos?",
+        alternativaA : "2-meninas",
+        alternativaB : "2-meninos",
+        alternativaC : "3-meninas",
+        correta      : "2-meninas",
+    }
+    
+    const q14 = {
+        numQuestao   : 14,
+        pergunta     : "Qual é o nome do meu pai?",
+        alternativaA : "João",
+        alternativaB : "Pedro",
+        alternativaC : "Marco",
+        correta      : "Marco",
+    }
+    
+    const q15 = {
+        numQuestao   : 15,
+        pergunta     : "Estilo de música favorita??",
+        alternativaA : "Samantha",
+        alternativaB : "Luciana",
+        alternativaC : "Dalva",
+        correta      : "Luciana",
+    }
+    
+    const q16 = {
+        numQuestao   : 16,
+        pergunta     : "Quantas cachoros?",
+        alternativaA : "3",
+        alternativaB : "2",
+        alternativaC : "1",
+        correta      : "3",
+    }
+    
+    const q17 = {
+        numQuestao   : 17,
+        pergunta     : "Bebida favorita?",
+        alternativaA : "Refrigerante",
+        alternativaB : "Suco",
+        alternativaC : "Agua",
+        correta      : "Refrigerante",
+    }
+    
+        const q18 = {
+            numQuestao   : 18,
+            pergunta     : "Veiculo favorito?",
+            alternativaA : "Carro",
+            alternativaB : "Bicicleta",
+            alternativaC : "Moto",
+            correta      : "Moto",
+    
+        }        
+        const q19 = {
+            numQuestao   : 19,
+            pergunta     : "linguagem favorita de programação?",
+            alternativaA : "Python-css",
+            alternativaB : "Html-Java script",
+            alternativaC : "Todas estão correta",
+            correta      : "Todas estão correta",
+    
+        }
+        const q20 = {
+            numQuestao   : 20,
+            pergunta     : "Qual opção está correta?",
+            alternativaA : "Praia",
+            alternativaB : "piscina",
+            correta      : "piscina",
+    
+        }
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
